@@ -46,15 +46,20 @@ Sensitive: Gory or disturbing content (blood, injury, corpses)
 
 When a user uploads an image, the backend sends it to the model via /analyze_image.
 If the model predicts a sensitive probability > 0.7, the post is blocked and a warning message is shown.
+
 🧪 How to Run Locally
-1️⃣ Install dependencies
+
+Install dependencies
+
 # Frontend
+
 cd frontend
+
 npm install
-npm run 
+
+npm run dev
 
 👨‍💻 Authors
-
 Project Name: SafeNet
-Developed by: []
+
 Year: 2025
