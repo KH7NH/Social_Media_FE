@@ -1,16 +1,60 @@
-# React + Vite
+🧠 SafeNet – AI-Powered Social Media for Sensitive Image Detection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SafeNet is a modern social media web application built with React + Vite and integrated with an AI model (EfficientNet-B0) to automatically detect and block sensitive or gory images before they are published.
+The goal of SafeNet is to create a safe, positive, and responsible online community by preventing the spread of disturbing content.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧩 User authentication (register, login, logout)
 
-## React Compiler
+🖼️ Post creation with image upload – images are scanned by AI before posting
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚠️ Sensitive image detection (blood, gore, death scenes)
 
-## Expanding the ESLint configuration
+💬 User interactions – view, like, and comment on posts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔒 Automatic blocking or blurring of sensitive images
+
+☁️ Cloud deployment – React frontend on Vercel/Netlify, FastAPI backend on Render/Railway
+
+⚙️ Tech Stack
+🧩 Frontend
+
+React + Vite – lightweight and fast development environment with Hot Module Replacement
+
+Axios – API communication
+
+Bootstrap / TailwindCSS – responsive and clean UI
+
+🧠 Backend (AI + API)
+
+FastAPI – high-performance backend and RESTful API
+
+TensorFlow / Keras – training and serving the EfficientNet-B0 model
+
+OpenCV / Pillow – image preprocessing
+
+PostgreSQL / MongoDB – user, post, and moderation log storage
+
+🧠 AI Model – EfficientNet-B0
+
+The EfficientNet-B0 model is fine-tuned to classify images into two categories:
+
+Normal: Safe and non-violent images
+
+Sensitive: Gory or disturbing content (blood, injury, corpses)
+
+When a user uploads an image, the backend sends it to the model via /analyze_image.
+If the model predicts a sensitive probability > 0.7, the post is blocked and a warning message is shown.
+🧪 How to Run Locally
+1️⃣ Install dependencies
+# Frontend
+cd frontend
+npm install
+npm run 
+
+👨‍💻 Authors
+
+Project Name: SafeNet
+Developed by: []
+Year: 2025
