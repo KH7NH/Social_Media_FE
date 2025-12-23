@@ -57,6 +57,8 @@ cd frontend
 
 npm install
 
+create .env
+
 npm run dev
 
 👨‍💻 Authors
