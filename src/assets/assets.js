@@ -26,8 +26,8 @@ export const menuItemsData = [
 export const dummyUserData = {
     "_id": "user_2zdFoZib5lNr614LgkONdD8WG32",
     "email": "admin@example.com",
-    "full_name": "John Warren",
-    "username": "john_warren",
+    "full_name": "KH7NH",
+    "username": "kh7nh_mouse",
     "bio": "🌍 Dreamer | 📚 Learner | 🚀 Doer\r\nExploring life one step at a time.\r\n✨ Staying curious. Creating with purpose.",
     "profile_picture": sample_profile,
     "cover_photo": sample_cover,
@@ -61,7 +61,7 @@ export const dummyStoriesData = [
     {
         "_id": "68833d466e4b42b685068860",
         "user": dummyUserData,
-        "content": "📌 This isn't the story I wanted to tell… not yet. But if you're reading this, know that something interesting is in motion 🔄. The next post will make more sense 🧩.",
+        "content": "📌 Đây không phải là câu chuyện tôi muốn kể… chưa phải lúc này. Nhưng nếu bạn đang đọc bài này, hãy biết rằng một điều thú vị đang diễn ra 🔄. Bài đăng tiếp theo sẽ rõ ràng hơn 🧩.",
         "media_url": "",
         "media_type": "text",
         "background_color": "#4f46e5",
