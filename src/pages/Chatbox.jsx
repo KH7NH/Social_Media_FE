@@ -89,7 +89,8 @@ const Chatbox = () => {
               onChange={(e) => setImage(e.target.files[0])}
             />
           </label>
-          <button className='bg-gradient-to-br from-indigo-500 to-purple-600 hover:from-indigo-700 hover:to-purple-800 active:scale-95 cursor-pointer text-white p-2 rounded-full'>
+          <button className='bg-gradient-to-br from-[oklch(55.6%_0_0)] to-[oklch(14.1%_0.005_285.823)]
+        hover:from-[oklch(21.6%_0.006_56.043)] hover:to-[oklch(25%_0.006_56.043)] active:scale-95 cursor-pointer text-white p-2 rounded-full'>
             <SendHorizonal size={18} />
           </button>
         </div>

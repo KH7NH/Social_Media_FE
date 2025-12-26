@@ -94,7 +94,8 @@ const CreatePost = () => {
                 error: <p>Failed to publish post.</p>,
               }
             )}
-             className='text-sm bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 active:scale-95 transition text-white font-medium px-8 py-2 rounded-md cursor-pointer'>
+             className='text-sm bg-gradient-to-r from-[oklch(55.6%_0_0)] to-[oklch(14.1%_0.005_285.823)]
+        hover:from-[oklch(21.6%_0.006_56.043)] hover:to-[oklch(25%_0.006_56.043)] active:scale-95 transition text-white font-medium px-8 py-2 rounded-md cursor-pointer'>
               Publish Post
             </button>
           </div>
